@@ -1,0 +1,12 @@
+{
+    "name": "Assignemnt",
+    "version": "1.0.0",
+    "description": "An extension to copy content of current page.",
+    "manifest_version": 3,
+    "author": "Priyesh Choudhary",
+     "permissions": ["scripting" ,"activeTab"],
+    "action":{
+    "default_popup": "index.html",
+    "default_title": "Content Extractor"
+    }
+}
